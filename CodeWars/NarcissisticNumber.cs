@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace CodeWars
@@ -25,7 +26,18 @@ namespace CodeWars
     {
         public static bool Solution(int value)
         {
-            return false;
+            //Power that is applied to every number
+            int pow = value.ToString().Length;
+
+            double narCheck = 0;
+
+            foreach (var val in value.ToString())
+            {
+                int valAsInt = int.Parse(val.ToString());
+                narCheck += Math.Pow(valAsInt,pow);
+            }
+
+            return narCheck == value;
         }
     }
 }

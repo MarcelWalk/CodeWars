@@ -11,7 +11,7 @@ namespace CodeWars.Tests
     using System.Collections.Generic;
 
     [TestFixture]
-    public class Sample_Test
+    public class NarcissisticTests
     {
         private static IEnumerable<TestCaseData> testCases
         {
