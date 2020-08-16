@@ -6,7 +6,7 @@ namespace CodeWar
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            throw new NotImplementedException();
         }
     }
 }
