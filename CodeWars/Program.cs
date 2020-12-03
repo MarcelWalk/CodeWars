@@ -6,7 +6,8 @@ namespace CodeWar
     {
         static void Main(string[] args)
         {
-            throw new NotImplementedException();
+            StripCommentsSolution.StripComments("apples, pears # and bananas\ngrapes\nbananas !apples", new string[] { "#", "!","@" });
+            //throw new NotImplementedException();
         }
     }
 }
